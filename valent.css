@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffe6e6;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+#container {
+  transition: all 0.5s ease;
+}
+
+h1 {
+  color: #846767;
+}
+
+.btn {
+  padding: 15px 30px;
+  margin: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+#yesBtn {
+  background-color: #56c535;
+  color: white;
+}
+
+#noBtn {
+  background-color: #cccccc;
+  color: black;
+}
+#imgs {
+  /* margin: 0px; */
+  transform: scale(1.4);
+
+  display: none;
+}
+#show {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  color: rgb(189, 47, 189);
+  display: flex;
+  position: absolute; /* Positions relative to the nearest positioned parent */
+  top: 450px; /* Distance from the top */
+  left: 390px; /* Distance from the left */
+  display: none;
+}
